@@ -12,29 +12,13 @@ const reducer = combineReducers({
   // movimentos store
   getAllMovimentoStore: movimento.getAllMovimentosReducer,
 
-  // entradas store
-  getAllEntradaStore: entrada.getAllEntradasReducer,
-  getAllEntradasChartStore: entrada.getAllEntradasChartReducer,
-  getEntradaStore: entrada.getEntradasReducer,
-  getCountEntradaStore: entrada.getCountEntradasReducer,
-  newEntradaStore: entrada.newEntradaReducer,
-  // deleteCountryStore: country.deleteCountryReducer,
-  // updateCountryStore: country.updateCountryReducer,
+
 
   // saidas store
   getAllSaidaStore: saida.getAllSaidasReducer,
   getSaidasSumStore: saida.getSaidasSumReducer,
   newSaidaStore: saida.newSaidaReducer,
-  // deleteCountryStore: country.deleteCountryReducer,
-  // updateCountryStore: country.updateCountryReducer,
 
-  // auth store
-  userLoginStore: login.loginReducer,
-  addUserStore: login.registroReducer,
-  getAllUserStore: login.getAllUsersReducer,
-  // updateCountryStore: country.updateCountryReducer,
-
-  // updateCountryStore: country.updateCountryReducer,
 });
 
 const compositor = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
